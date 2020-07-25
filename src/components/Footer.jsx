@@ -21,22 +21,22 @@ const Footer = () => {
             <small>Component based UI Kit</small>
           </div>
 
-          <div className="categories">
+          <div className="categories cat-1">
             <p>Technology</p>
             <p>Ideas</p>
           </div>
 
-          <div className="categories">
+          <div className="categories cat-2">
             <p>Leadership</p>
             <p>Video</p>
           </div>
 
-          <div className="categories">
+          <div className="categories cat-3">
             <p>News</p>
             <p>Finance</p>
           </div>
 
-          <div className="categories">
+          <div className="categories cat-4">
             <p>Entertainment</p>
           </div>
 

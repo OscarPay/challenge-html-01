@@ -1,0 +1,43 @@
+@media screen and (max-width: 768px)
+  .container
+    max-width: 738px
+
+  .header
+    &__nav
+      display: none
+
+  .grid--products
+    grid-template-columns: repeat(2, 1fr)
+    grid-gap: 1.5rem
+
+  .grid--footer
+    grid-template-columns: repeat(4, 1fr)
+
+  footer
+    .details
+      grid-column: 1/2
+
+    .cat-4
+      grid-column: 2 / 3
+      grid-row: 2
+
+      p
+        margin: 0
+
+    .social
+      margin-top: 2rem
+      display: flex
+      grid-column: 1 / 7
+      grid-row: 3
+
+      &__icons
+        order: 1
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 1rem;
+        margin-bottom: 0
+
+@media screen and (max-width: 425px)
+  body
+    color: #ffa

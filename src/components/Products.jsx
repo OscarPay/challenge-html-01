@@ -4,7 +4,7 @@ const Products = ({ children }) => {
   return (
     <main>
       <div className="container">
-        <div className="products grid-3">{children}</div>
+        <div className="products grid--products">{children}</div>
       </div>
     </main>
   );

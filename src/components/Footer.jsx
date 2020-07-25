@@ -53,9 +53,22 @@ const Footer = () => {
               <FontAwesomeIcon icon={faFacebookF} />
             </div>
             <div className="social__subscribe">
-              <input type="text" />
+              <input type="text" placeholder="Your E-mail" />
               <button type="button">Subscribe</button>
             </div>
+          </div>
+
+          <div className="categories--mobile">
+            <p>Technology</p>
+            <p>Ideas</p>
+            <p>Entertainment</p>
+            <p>Leadership</p>
+          </div>
+
+          <div className="categories--mobile">
+            <p>Video</p>
+            <p>News</p>
+            <p>Finance</p>
           </div>
         </div>
       </div>

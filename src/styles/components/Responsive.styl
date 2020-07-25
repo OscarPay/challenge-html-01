@@ -39,5 +39,48 @@
         margin-bottom: 0
 
 @media screen and (max-width: 425px)
-  body
-    color: #ffa
+  .container
+    max-width: 395px
+
+  .grid--products
+    grid-template-columns: repeat(1, 1fr)
+    grid-gap: 1.5rem
+
+  .grid--footer
+    grid-template-columns: repeat(2, 1fr)
+
+  footer
+    .details
+      grid-row: 1
+
+    .categories
+      display: none
+
+      &--mobile
+        display: initial
+        grid-row: 3
+
+
+    .social
+      margin-top: 2rem
+      display: flex
+      flex-direction: column
+      grid-row: 2
+
+      &__icons
+        justify-content: flex-start;
+        margin: 1rem 0
+
+      &__subscribe
+        display: flex
+
+        input
+          width: 50%
+
+        button
+          width: 30%
+          padding: .2rem;
+          border: 1px solid $color1
+          background-color: $color1
+          color: white
+          font-family: $font2
